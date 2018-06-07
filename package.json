@@ -1,0 +1,40 @@
+{
+  "name": "vscode-lesslint",
+  "displayName": "vscode-lesslint",
+  "description": "lint extensition for less",
+  "repository": "https://github.com/YuhangGe/vscode-lesslint",
+  "homepage": "https://github.com/YuhangGe/vscode-lesslint#readme",
+  "bugs": "https://github.com/YuhangGe/vscode-lesslint/issues",
+  "version": "0.0.1",
+  "license": "ISC",
+  "publisher": "yuhang",
+  "engines": {
+    "vscode": "^1.24.0"
+  },
+  "categories": [
+    "Linters"
+  ],
+  "activationEvents": [
+    "onLanguage:less"
+  ],
+  "keywords": [
+    "lint",
+    "less",
+    "style",
+    "stylelint",
+    "lesslint",
+    "css"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "vscode": "^1.1.6"
+  },
+  "dependencies": {
+    "stylelint": "^9.2.1"
+  }
+}

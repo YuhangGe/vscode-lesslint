@@ -8,7 +8,7 @@ const {
 const assert = require('assert');
 
 suite('vscode-lesslint', function () {
-  const vscodeLesslint = extensions.getExtension('yuhang.lesslint');    
+  const vscodeLesslint = extensions.getExtension('yuhang.vscode-lesslint');    
   assert.equal(!!vscodeLesslint, true, 'Lesslint extensition is not installed');
 
   test('should not be activated when the open file is not less.', async function () {
